@@ -1,0 +1,36 @@
+.toolbar-main{
+    --background:black;
+    --color:white;
+}
+
+.toolbar-second{
+    --background:red;
+    --color:white;
+}
+
+.memorie-title{
+    margin-left: 1rem;
+}
+
+.detail-memory{
+    text-align: center;
+}
+
+.img-memory{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.title-memory{
+    text-align: center;
+    padding: 5px;
+}
+
+.description-memory{
+    text-align: center;
+    padding: 5px;
+}
