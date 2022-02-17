@@ -11,6 +11,16 @@ export default createStore({
             ]
         }
     },
+    mutations: {
+        addMemory(state, memoryData){
+            state.memories.unshift(memoryData)
+        }
+    },
+    actions: {
+        addMemory(context, memoryData){
+            context.commit("addMemory", memoryData)
+        }
+    },
     getters: {
         memories(state){
             return state.memories
