@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'app-movil',
-  webDir: 'dist',
+  appId: 'com.collectionmemories.starter',
+  appName: 'Collection Memories',
+  webDir: 'public',
   bundledWebRuntime: false
 };
 

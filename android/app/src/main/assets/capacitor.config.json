@@ -1,0 +1,6 @@
+{
+	"appId": "com.collectionmemories.starter",
+	"appName": "Collection Memories",
+	"webDir": "public",
+	"bundledWebRuntime": false
+}
